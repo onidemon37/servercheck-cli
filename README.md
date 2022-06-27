@@ -1,2 +1,2 @@
 # servercheck-cli
-yet anothe rpython tutorial
+yet another python tutorial
