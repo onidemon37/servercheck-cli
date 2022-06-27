@@ -1,5 +1,6 @@
-from re import X
 import click
+import json
+import sys
 
 
 @click.command()
@@ -27,7 +28,7 @@ def cli(filename, server):
     # If --server or -s options are used then add those values
     if server:
         for s in server:
-            server.add(s)
+            servers.add(s)
 
     print(servers)
 
