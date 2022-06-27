@@ -12,8 +12,8 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = "mypackage"
-DESCRIPTION = "My short description for my project."
+NAME = "servercheck"
+DESCRIPTION = "Making Async HTTP Requests"
 URL = "https://github.com/me/servercheck-cli"
 EMAIL = "onidemon37@protonmail.com"
 AUTHOR = "onidemon37"
@@ -21,7 +21,7 @@ REQUIRES_PYTHON = ">=3.8.0"
 VERSION = "0.1.0"
 
 # What packages are required for this module to be executed?
-REQUIRED = ["click"]
+REQUIRED = ["click", "requests"]
 
 # What packages are optional?
 EXTRAS = {
