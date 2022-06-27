@@ -2,6 +2,8 @@ import click
 import json
 import sys
 
+from servercheck.http import ping_servers
+
 
 @click.command()
 @click.option("--filename", "-f", default=None)
@@ -30,8 +32,15 @@ def cli(filename, server):
         for s in server:
             servers.add(s)
 
-    print(servers)
+    # Make requests and collect results
+    results = ping_servers(servers)
 
+    print("Successful Connections")
+    print("----------------------")
+    for server in results["success"]:
+        print(server)
 
-if __name__ == "__main__":
-    cli()
+    print("\n Failed Connections")
+    print("----------------------")
+    for server in results["failure"]:
+        print(server)
