@@ -1,7 +1,7 @@
 # servercheck-cli
 yet another python tutorial.
 
-A python tutorial to from Linux Academy's, `Programming Use Cases with Python` course.
+- [Programming Use Cases with Python](https://learn.acloud.guru/course/eacc77f8-54c2-427f-8c5c-e32e98123f5c/dashboard)
 
 * requirements
 Install requirements.txt
