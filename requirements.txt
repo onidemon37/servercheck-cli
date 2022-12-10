@@ -6,12 +6,13 @@ distlib==0.3.4
 filelock==3.7.1
 identify==2.5.1
 idna==3.3
+mypackage==0.1.0
 nodeenv==1.7.0
 platformdirs==2.5.2
 pre-commit==2.19.0
 PyYAML==6.0
 requests==2.28.0
--e git+ssh://git@github.com/onidemon37/PythonTutorials.git@a3f31d29a85302dd3c9cab596e7a17fdb1a6f673#egg=servercheck&subdirectory=servercheck-2
+-e git+ssh://git@github.com/onidemon37/servercheck-cli.git@81a2d1de149b564ae5c9f9aef0f39dc0a0e1646b#egg=servercheck
 six==1.16.0
 toml==0.10.2
 urllib3==1.26.9
